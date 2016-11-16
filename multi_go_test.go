@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gigawattio/go-commons/pkg/concurrency"
+	"github.com/gigawattio/concurrency"
 )
 
 func TestMultiGoNilFuncBehavior(t *testing.T) {
