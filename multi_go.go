@@ -3,7 +3,7 @@ package concurrency
 import (
 	"sync"
 
-	"github.com/gigawattio/errorlib"
+	"gigawatt.io/errorlib"
 )
 
 // MultiGo runs the passed `func() error` functions in parallel and then merges
